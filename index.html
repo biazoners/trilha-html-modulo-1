@@ -6,57 +6,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
+
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+    <h1 id="topo">DIO | Desafio de Código | Introdução ao HTML na prática</h1>
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <p>Professor: Diogo Mainardes</p>
+    <p>Aluna: Beatriz Moreira Berto</p>
+    <p>Data de entrega: 2 OUT 2022</p>
+    
+    <hr/>
+
+    <h2 id="indice">Índice</h2>
+
+    <ol>
+        <li><a href="#apresentando">Apresentando o Curso</li></a>
+        <li><a href="#ferramentas">Ferramentas Utilizadas </li></a>
+        <li><a href="#inspetor">Inspetor de Elementos</li></a>
+        <li><a href="#estrutura">Estrutura Básica do HTML</li></a>
+        <li><a href="#sobre-tags">Falando sobre Tags</li></a>
+        <li><a href="#atributos-tags">Atributos das Tags</li></a>
+        <li><a href="#textos">Textos</li></a>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</li></a>
+        <li><a href="#links">Criando Links</li></a>
+        <li><a href="#referencia">Referências</li></a>
+    </ol>
+
+    <hr/>
+
+    <h2 id="apresentando">Apresentando o Curso</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+
+    <h3>Contatos do professor</h3>
+    <p><a href="http://instagram.com/diogomainardes.dev" target="_blank">@diogomainardes.dev</a></p>
+    <p><a href="http://linkedin.com/in/diogomainardes" target="_blank">linkedin.com/in/diogomainardes</a></p>
+    <p><a href="http://twitch.tv/dimmbr" target="_blank">twitch.tv/dimmbr</a></p>      
+    
+    
+    <h3>Objetivo do curso: </h3>
+    <p>Segundo o prof.:</p>
+    <blockquote>"Aprender a instalar e configurar o ambiente de desenvolvimento. Entender o funcionamento do inspetor de elementos do navegador e criar sua primeira página <abbr title="HyperText Markup Language">HTML</abbr>"
+    </blockquote> 
+    
+    <hr/>
+   
+    <h2 id="ferramentas">Ferramentas Utilizadas</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+
+    <p>Navegador recomendado: <a href="https://www.google.com/intl/pt-BR/chrome/" target="_blank">Google Chrome</a></p>
+    <p><abbr title="Integrated Development Environment">IDE</abbr> recomendada: <a href="https://code.visualstudio.com/" target="_blank">VSCODE</a></p>
+    <p>Extensões úteis:</p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li>Live Server</li>
+        <li>Emmet (padrão)</li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <hr/>
+    
+    <h2 id="inspetor">Inspetor de Elementos</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+    <p><em>Excelente</em> ferramenta de estudos. Mostra o código da página, os estilos, e permite visualizar as modificações em tempo real.</p>
+    
+    <p>No Google Chrome: apertar F12</p>
+    
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <hr/>
+    
+    <h2 id="estrutura">Estrutura Básica do HTML</h2>
+    <a href="#indice"><small>[voltar]</small></a>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p>A estrutura essencial de um documento HTML é:</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <code>
+                < html > </br>
+                < head > Informações carregadas antes do restante da página.< /head > </br>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+                < body > Conteúdo que aparecerá no navegador. < /body > </br>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+
+                < /html >
+        </code>
+    
+
+    <hr/>
+    
+    <h2 id="sobre-tags">Falando sobre Tags</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+
+    <p>Estrutura básica das tags: <code>< NOME-DA-TAG ></ NOME-DA-TAG> CONTEÚDO A SER ENGLOBADO PELA TAG < / NOME-DA-TAG ></code>. </p>
+    <p>Algumas tags não precisam de fechamento, como é o caso da tag <code>INPUT</code> (cria campo de inserção de dado pelo usuário) e da tag <code>IMG</code> (insere imagem na página ).</p>
+
+    <p><a href="https://www.w3schools.com/tags/default.asp" target="_blank">Lista completa das tags HTML no site da <i>W3schools</i>.</a> <a href="#nota1"><sup> 1</sup></a></p>
+
+    <mark>OBSERVAÇÃO: Aprofundar estudos relacionados a HTML SEMÂNTICO.</mark>
+
+    <hr/>
+    
+    <h2 id="atributos-tags">Atributos das Tags</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+
+    <p>Existem atributos gerais, que servem para a maioria das tags, e atribitos específicos para cada tag.</p>
+
+    <p>Exemplo: <code>id, style, class (css)</code> são atributos de vários tipos de elemento, enquanto <code>src</code> é específico do elemento <code>img</code> e <code>href</code> é atributo típico para links.
+   
+    
+    <p><a href="https://www.w3schools.com/tags/ref_attributes.asp" target="_blank">Lista completa de atributos das tags HTML no site da <i>W3schools</i>.</a></p>
+
+    <hr/>
+    
+    <h2 id="textos">Textos</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+
+    <p>Há muitas tags<a href="#nota2"><sup> 2</sup></a> de formatação de texto. Entre as mais usadas, temos as de título (<code>h1, h2, h3... até h6</code>), parágrafo <code>p</code>, citação <code>blockquote</code>, sobrescrito <code>sup</code>, subscrito <code>sub</code> etc.</p>
+
+    <p>Algumas são especialmente importantes para a <mark>acessibilidade</mark>, como é o caso da tag <code>em</code><em>(ênfase)</em>, que embora visualmente tenha o mesmo efeito que a tag <code>i</code> <i>(itálico)</i>, resulta em uma ênfase na voz emitida por leitores de páginas WEB utilizados, por exemplo, por pessoas com deficiência visual.</p>
+
+    <p><a href="https://www.w3schools.com/html/html_formatting.asp" target="_blank">Lista completa de tags de formatação de texto no site da <i>W3schools</i>.</a></p>
+
+    <hr/>
+
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+
+    <p>Listas são <u>muito</u> usadas em HTML para compor menus, por exemplo.</p>
+    <p>Lista ordenada (=numerada): <code> ol </code></p>
+    <p>Lista não-ordenada:  <code> ul </code></p>
+    <p>Tags filhas: <code>li</code></p>
+
+    <hr/>
+    
+    <h2 id="links">Links</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+
+    <p>O "a" vem de "âncora".</p>
+
+    <h3>Atributo <code>target</code>: </h3>
+       <ul>
+        <li>retrocompatibilidade: <del>frames, top, parent</del><ins>funcionalidades em desuso</ins></li>
+        <li>self: padrão</li>
+        <li>blank: outra aba</li>
+
+       </ul> 
+
+    <h3>Links internos à página:</h3>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li>atributo <code>id</code> ao elemento a ser linkado;</li>
+        <li>atributo <code>href="#id"</code> no elemento <code>a</code></li>
     </ul>
+
+    <hr/>
+    
+    <h2 id="referencias">Referências</h2>
+    <a href="#indice"><small>[voltar]</small></a>
+    <p></p><a href="https://www.w3schools.com/" target="_blank"><b>W3Schools.com</b></a></p>
+    <p><a href="https://www.github.com/" target="_blank"><b>github.com</b></a></p>
+
+    <hr/>
+                    
+    <h4>Notas</h4>
+    <p><sup id="nota1">1</sup><small>A <strong>w3schools</strong>é excelente fonte de material de referência para desenvolvimento WEB. Acesse: <a href="https://www.w3schools.com/">W3Schools.com</a></small></p>
+    <p><sup id="nota2">2</sup><small>Atualmente, recomenda-se que a maior parte da formatação de texto em uma página WEB seja realizada com CSS. Inclusive, algumas tags de formatação de texto deixaram de ser suportadas pelo HTML5, como é o caso da tag <code>font</code></small>.</p>
+    <a href="#topo"><small>[voltar ao topo]</small></a>
 
 </body>
+
 </html>
